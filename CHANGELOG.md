@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added support for `Array` and `Optional` expressions to model result builders
 - Added support for `Optional` expressions to `PresentationModel` result builders
 
+### Changed
+- The SectionModel initializer now requires a data ID to make it harder to have sections with
+  duplicate identity, resulting in a runtime warning and potentially unexpected diffing behavior.
+
 ## [0.2.0](https://github.com/airbnb/epoxy-ios/compare/0.1.0...0.2.0) - 2021-03-16
 
 ### Added
