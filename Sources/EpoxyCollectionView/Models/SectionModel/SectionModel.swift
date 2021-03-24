@@ -47,6 +47,10 @@ extension SectionModel: SupplementaryItemsProviding {}
 
 extension SectionModel: WillDisplayProviding {}
 
+// MARK: DidDisplayProviding
+
+extension SectionModel: DidDisplayProviding {}
+
 // MARK: Diffable
 
 extension SectionModel: Diffable {
